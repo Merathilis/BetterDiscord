@@ -21,10 +21,10 @@
 	text-shadow: none;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Gamja:400,500,700);
 
 * {
-	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Gamja', sans-serif !important;
 }
 
 
@@ -5059,7 +5059,8 @@ body:active .menu-Sp6bN1:not(:active) {
 	font-weight: normal;
 }
 
-/* CUSTOM PLAYGROUND -> CUSTOM CSS */
+/* CUSTOM PLAYGROUND */
+
 /* Hover and popout like RadialStatus */
 .channel-members .member .status {
 	transition: all 150ms ease;
