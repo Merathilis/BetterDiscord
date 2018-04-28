@@ -5058,3 +5058,38 @@ body:active .menu-Sp6bN1:not(:active) {
 	border: none !important;
 	font-weight: normal;
 }
+
+/* CUSTOM PLAYGROUND -> CUSTOM CSS */
+/* Hover and popout like RadialStatus */
+.channel-members .member .status {
+	transition: all 150ms ease;
+    will-change: border-color, width, background, height, padding;
+}
+
+.channel-members .member:hover .status, .channel-members .member.popout-open .status {
+    width:100% !important;
+    background: transparent;
+    border-radius: inherit;
+    height: 100%;
+	right: -4px !important;
+	bottom: -4px;
+	padding: 2px;
+	transition: all 150ms ease;
+	border-width: 2px;
+	margin: 0;
+}
+
+.channel-members .member:hover .status.status-online,
+.channel-members .member.popout-open .status.status-online {border-color: #43b581 !important}
+.channel-members .member:hover .status.status-idle,
+.channel-members .member.popout-open .status.status-idle {border-color: #faa61a !important}
+.channel-members .member:hover .status.status-dnd,
+.channel-members .member.popout-open .status.status-dnd {border-color: #f04747 !important}
+.channel-members .member:hover .status.status-offline,
+.channel-members .member.popout-open .status.status-offline {border-color: #636b75 !important}
+.channel-members .member:hover .status-streaming.status,
+.channel-members .member.popout-open .status-streaming.status {border-color: #593695 !important}
+.channel-members .member.popout-open .status.status-typing,
+.channel-members .member:hover .status.status-typing {background-color: rgba(0, 0, 0, 0.4) !important;}
+.channel-members .member.popout-open .status.status-typing .spinner .spinner-inner,
+.channel-members .member:hover .status.status-typing .spinner .spinner-inner {left: 1px !important;top: 1px !important;}
