@@ -21,10 +21,10 @@
 	text-shadow: none;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Rancho:400,500,700);
 
 * {
-	font-family: 'Rancho', sans-serif !important;
+	font-family: 'Rancho' !important;
 }
 
 
@@ -3067,7 +3067,7 @@ body .Select-option:hover {
 .message-group .comment .markup pre code,
 .message-group .comment .markup pre code *,
 .message-group .comment .markup code.inline {
-	font-family: Rancho, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif !important;
+	font-family: Rancho, monospace, serif !important;
 }
 
 .message-group .comment .markup code.inline,
